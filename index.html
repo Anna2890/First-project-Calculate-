@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Your calculate</h1>
+    <!-- <p>Don't divide by zero</p> -->
+
+    <div class="calculator">
+        <button id="c" class="reset" type="button">C</button>
+
+        <div class="displ">
+            <input id="inputNum" type="text" value="0" disabled>    
+        </div>
+
+        <button class="num" data-num="7" type="button">7</button>
+        <button class="num" data-num="8" type="button">8</button>
+        <button class="num" data-num="9" type="button">9</button>
+        <button class="ops" type="button" >+</button>
+
+        <button class="num" data-num="4" type="button">4</button>
+        <button class="num" data-num="5" type="button">5</button>
+        <button class="num" data-num="6" type="button">6</button>
+        <button class="ops" type="button">-</button>
+
+        <button class="num" data-num="1" type="button">1</button>
+        <button class="num" data-num="2" type="button">2</button>
+        <button class="num" data-num="3" type="button">3</button>
+        <button class="ops" type="button">*</button>
+
+        <button class="num" type="button">0</button>
+        <button class="dec" type="button" id="dec">.</button>
+        <button class="ops" id="result" type="button">=</button>
+        <button class="ops" type="button">/</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
