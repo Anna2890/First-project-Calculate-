@@ -1,0 +1,106 @@
+body{
+    background-image: linear-gradient(to right, rgb(11, 247, 227),  rgb(2, 110, 252), rgb(11, 247, 227) );
+    font-family:'Unica One', cursive;
+}
+
+@font-face {
+    font-family:'Unica One', cursive;
+    src: url(fonts/Unica_One/UnicaOne-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+   text-align: center;
+    color: rgb(253, 236, 214);
+    
+}
+
+.calculator{
+   border-radius: 10px;
+   box-shadow: inset rgba(0,0,0,.6) 0 -3px 8px,
+   inset rgba(229, 235, 235, 0.7) 0 3px 8px,
+   rgba(0,0,0,.8) 0 3px 8px -3px;
+   display: block;
+   margin: 0 auto; 
+   background-color: rgb(253, 236, 214);
+   padding-left: 6px;
+   padding-top: 10px;
+   width: 320px; 
+   height: 380px;
+}
+
+.reset{
+    /* background-color: rgb(221, 125, 0); */
+    margin-top: 5px;
+    width: 65px;
+    height: 4.8em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+}
+.reset:active{
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+.displ{
+    border: 1px solid gray;
+    float: left;
+    width: 13.8em;
+    height: 4em;
+    text-align: right;
+    margin: 5px;
+    padding-right: 2px;
+    line-height: 3em;
+    background-color: rgb(97, 97, 89);
+    border-radius: 4px;
+}
+.displ input{
+    border: 0;
+    border-radius: 3px;
+    width: 220px;
+    height: 61px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Unica One', cursive;
+    color: white;
+    background:transparent;
+    box-shadow: inset 0px -1px 2px #bbd3d2;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.123) );
+}
+
+button{
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black;
+    margin: 3px;
+    margin-left: 9px;
+    float: left;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(43, 226, 98);
+    cursor: pointer;
+    outline: none !important;
+    border: 0px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em rgb(43, 226, 98);
+    background: linear-gradient(rgb(103, 216, 137), rgb(75, 228, 121) 48%, 
+    rgb(43, 226, 98) 52%, rgb(9, 202, 67));
+}
+button span{
+    font-size: 20px;
+    font-family: 'Unica One', cursive;
+    color: white;
+}
+
+button:active{
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+.ops{
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em 
+    rgb(29, 72, 212);
+    background: linear-gradient(rgb(102, 129, 219), rgb(68, 99, 201) 48%, 
+    rgb(29, 72, 212) 52%, rgb(34, 72, 197));
+}
